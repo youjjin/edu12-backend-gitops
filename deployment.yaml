@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: edu12-backend
-        image: shclub/edu12-backend
+        image: ghcr.io/shclub/edu12-backend
         ports:
         - name: http
           containerPort: 8080
