@@ -6,5 +6,5 @@ resources:
 images:
 - name: ghcr.io/shclub/edu12-backend
   newTag: "20230322092639"
-- name: shclub/edu12-backend
-  newTag: "20230322080446"
+#- name: shclub/edu12-backend
+#  newTag: "20230322080446"
