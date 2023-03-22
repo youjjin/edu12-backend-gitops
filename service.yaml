@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: edu12-backend
+  labels:
+    app: edu12-backend
+spec:
+  selector:
+    app: edu12-backend
+  ports:
+  - port: 80
+    targetPort: 8080
+  type: NodePort 
