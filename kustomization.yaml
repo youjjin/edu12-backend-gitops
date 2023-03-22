@@ -5,4 +5,4 @@ resources:
 - service.yaml
 images:
 - name: shclub/edu12-backend
-  newTag: v12
+  newTag: "20230322042001"
