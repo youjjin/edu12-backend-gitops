@@ -24,6 +24,6 @@ spec:
         - name: SPRING_DATASOURCE_PASSWORD
           value: "edu1234"
         - name: SPRING_DATASOURCE_URL
-          value: "jdbc:mariadb://helm-db-mariadb:3306/edu"
+          value: "jdbc:mariadb://my-release-mariadb:3306/edu"
         ports:
         - containerPort: 8080
