@@ -22,7 +22,7 @@ spec:
         - name: SPRING_DATASOURCE_USERNAME
           value: "edu"
         - name: SPRING_DATASOURCE_PASSWORD
-          value: "caravan"
+          value: "edu1234"
         - name: SPRING_DATASOURCE_URL
           value: "jdbc:mariadb://helm-db-mariadb:3306/edu"
         ports:
