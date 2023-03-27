@@ -22,10 +22,10 @@ spec:
         - name: SPRING_DATASOURCE_USERNAME
           value: "edu"
         - name: SPRING_DATASOURCE_PASSWORD
-          value: "caravan"
-          #value: "edu1234"
+          #value: "caravan"
+          value: "edu1234"
         - name: SPRING_DATASOURCE_URL
-          value: "jdbc:mariadb://helm-db-mariadb.edu31.svc.cluster.local:3306/edu"
-          #value: "jdbc:mariadb://my-release-mariadb:3306/edu"
+          #value: "jdbc:mariadb://helm-db-mariadb.edu31.svc.cluster.local:3306/edu"
+          value: "jdbc:mariadb://my-release-mariadb:3306/edu"
         ports:
         - containerPort: 8080
