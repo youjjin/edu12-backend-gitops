@@ -4,7 +4,7 @@ resources:
 - deployment.yaml
 - service.yaml
 images:
-- name: ghcr.io/shclub/edu12-backend
+- name: ghcr.io/youjjin/edu12-backend
   newTag: "20230322092639"
 #- name: shclub/edu12-backend
 #  newTag: "20230322080446"
